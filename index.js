@@ -24,6 +24,7 @@ app.listen(process.env.port,async ()=>{
         console.log("Connected DB...");
     } catch (error) {
         console.log("DB connection lose");
+        console.log(error);
     }
     console.log(`Running at port ${process.env.port}`);
 })
