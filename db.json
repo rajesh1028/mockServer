@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "roll_no": 27,
+            "name": "Dhaanu",
+            "location": "Chennai",
+            "course": "node"
+        },
+        {
+            "roll_no": 1,
+            "name": "Kabilan",
+            "location": "Chennai",
+            "course": "node"
+        },
+        {
+            "roll_no": 1,
+            "name": "Pravesh",
+            "location": "Chennai",
+            "course": "react"
+        },
+        {
+            "roll_no": 28,
+            "name": "Preethi",
+            "location": "Dubai",
+            "course": "node"
+        }
+    ],
+    "teachers": [
+        {
+            "emp_id": 111,
+            "name": "Santhosh",
+            "sub": "DSA",
+            "exp": 1
+        },
+        {
+            "emp_id": 11,
+            "name": "Vishnu",
+            "sub": "DSA",
+            "exp": 1
+        },
+        {
+            "emp_id": 100,
+            "name": "qwerty",
+            "sub": "node",
+            "exp": 1
+        }
+    ]
+}
