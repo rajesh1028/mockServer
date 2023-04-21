@@ -80,7 +80,7 @@
 const express = require("express")
 const fs = require("fs")
 const dogRoute = express.Router();
-const { authentication } = require("../middleware/authentication.mid");
+// const { authentication } = require("../middleware/authentication.mid");
 //const {validator}=require("./middlewares/validator.middleware.js")
 
 dogRoute.get("/dogs", (req, res) => {
@@ -120,7 +120,7 @@ dogRoute.post("/dogs/addDog", (req, res) => {
     res.send("dogs added");
 })
 
-dogRoute.use(authentication);
+// dogRoute.use(authentication);
 
 dogRoute.patch("/dogs/:id", (req, res) => {
     const read = fs.readFileSync("./db.json");
@@ -153,20 +153,6 @@ dogRoute.delete("/dogs/:id", (req, res) => {
     res.send("dog removed");
 })
 
-// // login
-
-// dogRoute.delete("/dogs/:id", (req, res) => {
-//     const read = fs.readFileSync("./db.json");
-//     const parsedData = JSON.parse(read);
-//     let data = req.params.id;
-//     parsedData.dogs.forEach((item, index) => {
-//         if (item.id == data) {
-//             parsedData.dogs.splice(index, 1);
-//         }
-//     });
-//     fs.writeFileSync("./db.json", JSON.stringify(parsedData));
-//     res.send("dog removed");
-// })
 
 
 module.exports = {
