@@ -1,1 +1,44 @@
-{"dogs":[{"id":2,"name":"Tommy","image":"https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph","age":3,"place":"Banglore","gender":"Female"},{"id":3,"name":"Berry","image":"https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph","age":2,"place":"Bombay","gender":"Male"},{"id":4,"name":"Theri","image":"https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph","age":3,"place":"Kolkata","gender":"Female"},{"name":"gbad","image":"https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph","age":5,"place":"Vizag","gender":"Male","id":182514},{"name":"bark","age":2,"image":"https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph","place":"Visakhapatnam","gender":"Male","id":122011}]}
+{
+    "dogs": [
+        {
+            "id": 2,
+            "name": "Tommy",
+            "image": "https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph",
+            "age": 3,
+            "place": "Banglore",
+            "gender": "Female"
+        },
+        {
+            "id": 3,
+            "name": "Berry",
+            "image": "https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph",
+            "age": 2,
+            "place": "Bombay",
+            "gender": "Male"
+        },
+        {
+            "id": 4,
+            "name": "Theri",
+            "image": "https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph",
+            "age": 3,
+            "place": "Kolkata",
+            "gender": "Female"
+        },
+        {
+            "name": "gbad",
+            "image": "https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph",
+            "age": 5,
+            "place": "Vizag",
+            "gender": "Male",
+            "id": 182514
+        },
+        {
+            "name": "bark",
+            "age": 2,
+            "image": "https://img.freepik.com/free-photo/dog-sits-front-picture-frame-with-stuffed-animal-it_1340-36143.jpg?size=626&ext=jpg&ga=GA1.2.1973890559.1667578251&semt=sph",
+            "place": "Visakhapatnam",
+            "gender": "Male",
+            "id": 122011
+        }
+    ]
+}
